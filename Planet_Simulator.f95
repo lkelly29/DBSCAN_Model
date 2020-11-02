@@ -1,7 +1,5 @@
-program HW12
+program Planet_Orbit
    ! Kelly Lewis
-   ! HW 12
-   ! Due 5/7/2020
    ! Planet Orbit Simulation
     implicit none
     integer :: j, i, n
@@ -73,7 +71,7 @@ program HW12
 	! close file 
 	close(45) 
 
-end program HW12
+end program Planet_Orbit
 
 ! f prime subfunction 
 subroutine fPrime(Planet, fP)
